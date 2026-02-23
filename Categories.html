@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - BrewBudget</title>
+    <link rel="stylesheet" href="Coffee.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+.fa-cart-shopping {
+    font-size: 25px;
+}
+.fa-user{
+    font-size: 25px;
+}
+.fa-bars{
+    font-size: 25px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <image src="coffee-logo.png" alt="BrewBudget Logo" width="150" height="130">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Categories.html" class="active">Categories</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="header-extras">
+            <div class="search-bar">
+                <input type="search" placeholder="🔎 Search...">
+            </div>
+            <div class="icons">
+               <i class="fa-solid fa-cart-shopping" style="color: rgb(255, 255, 255);"></i>
+               <i class="fa-solid fa-user" style="color: rgb(255, 255, 255);"></i>
+               <i class="fa-solid fa-bars" style="color: rgb(255, 255, 255);"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our Categories</h1>
+            <p>Explore our wide range of coffee products and accessories</p>
+        </section>
+
+        <section id="coffee-products" class="category-section">
+            <h2>☕ Coffee Products</h2>
+            
+            <div class="subcategory">
+                <h3>Ground Coffee</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="Ground Coffee Pic.png" alt="Ground Coffee" style="margin-left: 0.5% ; width: =150%; height: 310px;">
+                        <h4>Ground Coffee</h4>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Classic Roast</option>
+                                    <option>Mocha</option>
+                                    <option>Hazelnut</option>
+                                    <option>Vanilla</option>
+                                    <option>Caramel</option>
+                                    <option>Chocolate</option>
+                                </select>
+                            </label>
+                            <label class="size-options">Size: 
+                                <input type="radio" name="size1" value="100g"> 100g – ₱80 
+                                <input type="radio" name="size1" value="250g"> 250g – ₱180 
+                                <input type="radio" name="size1" value="500g"> 500g – ₱320
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Instant Coffee</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="Instant Coffee.png" alt="Instant Coffee" style="width: =150%; height: 310px;">
+                        <h4>Instant Coffee</h4>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Classic</option>
+                                    <option>Mocha</option>
+                                    <option>Vanilla</option>
+                                    <option>Hazelnut</option>
+                                    <option>Cappuccino</option>
+                                </select>
+                            </label>
+                            <label class="size-options">Packaging: 
+                                <input type="radio" name="pack1" value="single"> Single-serve (10g) – ₱15 
+                                <input type="radio" name="pack1" value="10pack"> 10-pack – ₱140 
+                                <input type="radio" name="pack1" value="20pack"> 20-pack – ₱260
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Coffee Beans</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="Coffee Beans.png" alt="Coffee Beans"style="margin-left: 10%; width: =150%; height: 310px;">	
+                        <h4>Coffee Beans</h4>
+                        <form class="choices">
+                            <label>Roast Type: 
+                                <select>
+                                    <option>Espresso Roast</option>
+                                    <option>Dark Roast</option>
+                                    <option>Medium Roast</option>
+                                    <option>Light Roast</option>
+                                    <option>Mocha Blend</option>
+                                </select>
+                            </label>
+                            <label class="size-options">Size: 
+                                <input type="radio" name="size2" value="100g"> 100g – ₱90 
+                                <input type="radio" name="size2" value="250g"> 250g – ₱200 
+                                <input type="radio" name="size2" value="500g"> 500g – ₱350
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="accessories" class="category-section">
+            <h2>🎁 Coffee Accessories</h2>
+            
+            <div class="subcategory">
+                <h3>Mugs & Tumblers</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="Mugs.png" alt="Mugs">
+                        <h4>Mug</h4>
+                        <form class="choices">
+                            <label>Color: 
+                                <select>
+                                    <option>Red</option>
+                                    <option>Blue</option>
+                                    <option>Yellow</option>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </label>
+                            <p class="price-display">Price: ₱69</p>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="tumblers.png" alt="Tumblers">
+                        <h4>Tumbler</h4>
+                        <form class="choices">
+                            <label>Color: 
+                                <select>
+                                    <option>Red</option>
+                                    <option>Blue</option>
+                                    <option>Yellow</option>
+                                    <option>Black</option>
+                                    <option>White</option>
+                                </select>
+                            </label>
+                            <p class="price-display">Price: ₱99</p>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Coffee Filters & Kits</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <img src="Coffee filters.png" alt="Coffee Filters">
+                        <h4>Coffee Filters (100 pcs)</h4>
+                        <p class="price-display">Price: ₱60</p>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <img src="Portable Brewing Kit.png" alt="Portable Brewing Kit">
+                        <h4>Portable Brewing Kit</h4>
+                        <p class="price-display">Price: ₱460</p>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bundles" class="category-section">
+            <h2>💰 Budget and Deals</h2>
+            
+            <div class="subcategory">
+                <h3>Special Bundles</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <span class="badge new">New</span>
+                        <img src="Study Buddy Bundle (2).png" alt="Study Buddy Bundle" style="margin-left: 1%">
+                        <h4>Study Buddy Bundle</h4>
+                        <p class="price">₱120</p>
+                        <p class="description">100g ground coffee + small mug</p>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Classic Roast</option>
+                                    <option>Mocha</option>
+                                    <option>Hazelnut</option>
+                                </select>
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <span class="badge best-seller">Best Seller</span>
+                        <img src="All-Nighter Pack.png" alt="All-Nighter Pack" style="margin-left: 1%">
+                        <h4>All-Nighter Pack</h4>
+                        <p class="price">₱90</p>
+                        <p class="description">2 instant coffees + portable tumbler</p>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Classic</option>
+                                    <option>Mocha</option>
+                                    <option>Vanilla</option>
+                                </select>
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="subcategory">
+                <h3>Special Deals</h3>
+                <div class="product-grid">
+                    <div class="product">
+                        <span class="badge student-favorite">Student Favorite</span>
+                        <img src="Exam Prep Kit.png" alt="Exam Prep Kit">
+                        <h4>Exam Prep Kit</h4>
+                        <p class="price">₱250</p>
+                        <p class="description">250g ground coffee + notebook + pen</p>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Classic Roast</option>
+                                    <option>Mocha</option>
+                                    <option>Hazelnut</option>
+                                </select>
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                    <div class="product">
+                        <span class="badge gift-idea">Gift Idea</span>
+                        <img src="Mini Gift Set.png" alt="Mini Coffee Gift Set">
+                        <h4>Mini Coffee Gift Set</h4>
+                        <p class="price">₱150</p>
+                        <p class="description">100g coffee beans + reusable filter</p>
+                        <form class="choices">
+                            <label>Flavor: 
+                                <select>
+                                    <option>Espresso Roast</option>
+                                    <option>Dark Roast</option>
+                                    <option>Medium Roast</option>
+                                </select>
+                            </label>
+                        </form>
+                        <button class="cta-button">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>BrewBudget</h3>
+                <p>Affordable coffee for students. Brew your way through exams and all-nighters!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Categories.html">Categories</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>📍 Poblacion, Ibaan, Batangas</p>
+                <p>📧 info@brewbudget.com</p>
+                <div class="social-links">
+                    <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 BrewBudget. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
